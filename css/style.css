@@ -1,0 +1,214 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 2.5em;
+    color: #333;
+    background-color: #fff;
+    margin: 0;
+    height: 100%;
+
+}
+
+#floating-div {
+    position: absolute;
+    display: none;
+    height: auto;
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+#floating-form {
+    margin: auto;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+button {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* INDEX///////////////////////////////////////////////////////// */
+.carousel {
+    margin-top: 70px;
+}
+
+.c-img {
+    width: auto;
+    height: 500px;
+}
+
+.featurette-image {
+    width: 400px;
+}
+/* ////////////////////////////////////////////////////////////// */
+
+/* GALLERY////////////////////////////////////////////////////// */
+#gallery {
+    margin-top: 150px;
+}
+
+.carousel-item img {
+    height: 500px
+}
+/* ////////////////////////////////////////////////////////////// */
+
+/* AMENITIES///////////////////////////////////////////////////// */
+.pax {
+    min-height: 400px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.part {
+    min-height: 300px;
+    padding: 100px;
+}
+
+.pax-1 {
+    margin-top: 70px;
+    background-image: url("../media/amenities-img-1.jpg");
+
+}
+
+.amenities-heading {
+    margin: auto;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.pax-2 {
+    background-image: url("../media/amenities-img-2.jpg");
+}
+
+.pax-3 {
+    background-image: url("../media/amenities-img-3.jpg");
+
+}
+
+.pax-3 a {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+/* ////////////////////////////////////////////////////////////// */
+
+
+/* FLOOR PLAN///////////////////////////////////////////////////// */
+    #floor-plans {
+      margin-top: 75px;  
+      min-height: 600px;
+    }
+
+    #floor-plans h1 {
+       padding-top: 70px;
+       font-weight: bold;
+    }
+    .accordion {
+        padding-top: 90px;    
+        padding-bottom: 90px;
+    }
+
+    .floor-plans-img {
+        width: 400px;
+        padding-top: 30px;
+    }
+/* ////////////////////////////////////////////////////////////// */
+
+/* CONTACTS ///////////////////////////////////////////////////// */
+    #contacts {
+        margin-top: 75px;
+    }
+
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+
+    form {
+        border: 1px solid rgb(175, 175, 175);
+        border-radius: 15px;
+        padding: 40px;
+    }
+
+    input, textarea {
+        padding: 0 5px 0 5px;
+        border-radius: 15px;
+    }
+    
+    textarea {
+        width: inherit;
+    }
+
+    input,textarea:focus {
+        outline: none;
+    }
+/* ////////////////////////////////////////////////////////////// */
+
+
+
+/* //////////////////////////////////////////////////////////////// */
+/* RESPONSIVE///////////////////////////////////////////////////// */
+/* /////////////////////////////////////////////////////////////// */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    /* INDEX///////////////////////////////////////////////////// */
+    .c-img {
+        width: auto;
+        height: 300px;
+    }
+
+    .featurette-image {
+        width: 300px;
+        margin: auto;
+    }
+    /* /////////////////////////////////////////////////////////// */
+
+    /* GALLERY//////////////////////////////////////////////////// */
+    .carousel-item img {
+        height: 250px
+    }
+    /* //////////////////////////////////////////////////////////// */
+
+    /* Amenities /////////////////////////////////////////////////// */
+    .part {
+        min-height: 300px;
+        padding: 20px;
+    }
+    /* //////////////////////////////////////////////////////////// */
+
+    /* FLOOR PLANS///////////////////////////////////////////////// */
+    .floor-plans-img {
+        width: 300px;
+    }
+    /* //////////////////////////////////////////////////////////// */
+
+ }
+
+
+/* Small devices (landscape phones, less than 768px) */
+/* @media (max-width: 767.98px) { ... } */
+
+/* Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) { ... } */
+
+/* Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px) { ... } */

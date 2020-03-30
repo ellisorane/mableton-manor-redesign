@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mableton Manor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+  </head>
+<body>
+
+    <!-- FLOATING DIV -->
+    <!-- <div class="" id="floating-div">
+        <form action="" class="bg-dark text-white" id="floating-form">
+            <div class="row">
+                <div class="col">
+                    <label for="firstName">First name</label><br>
+                    <input type="text"><br>
+                </div>
+                <div class="col">
+                    <label for="lastName">Last name</label><br>
+                    <input type="text"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email">Email</label><br>
+                    <input type="text"><br>
+                </div>
+                <div class="col">
+                    <label for="phone">Phone</label><br>
+                    <input type="text"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="message">Message</label><br>
+                    <textarea name="" id="" rows="5"></textarea> <br>
+                </div>
+            </div>
+            
+            <input type="submit" value="Submit" class="btn btn-primary">
+        </form>
+    </div> -->
+    <!-- FLOATING DIV ends -->
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light p-3 fixed-top">
+        <a class="navbar-brand" href="../index.html">Mableton Manor</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="amenities.html">Amenities</a>
+            </li><li class="nav-item">
+                <a class="nav-link" href="floor-plans.html">Floor plans</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="contacts.html">Contacts <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+    </div>
+    <button class="btn btn-primary" id="tour">Schedule Tour</button>
+    </nav>
+    <!-- NAVBAR ends -->
+
+    
+
+    <!-- Container starts  -->
+    <div class="container" id="contacts">
+        <div class="row">
+            <div class="col">
+                <h1 class="font-weight-bold mt-5 mb-5 text-center">Contacts</h1>
+                <div class="row mb-5">
+                    <div class="col-sm-6">
+                        <form action="">
+                            <div class="row">
+                                <div class="col">
+                                    <label for="firstName">First name</label><br>
+                                    <input type="text"><br>
+                                </div>
+                                <div class="col">
+                                    <label for="lastName">Last name</label><br>
+                                    <input type="text"><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="email">Email</label><br>
+                                    <input type="text"><br>
+                                </div>
+                                <div class="col">
+                                    <label for="phone">Phone</label><br>
+                                    <input type="text"><br>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <label for="message">Message</label><br>
+                                    <textarea name="" id="" rows="5"></textarea> <br>
+                                </div>
+                            </div>
+                            
+                            <input type="submit" value="Submit" class="btn btn-primary">
+                        </form>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col">
+                                <h4>Address</h4>
+                                <hr class="bg-white">
+                                <p>1291 Old Powder Springs Rd sw <br>
+                                Mableton, GA 30126 <br>
+                                United States</p>
+                            </div>
+                            <div class="col">
+                                <h4>Phone</h4>
+                                <hr class="bg-white">
+                                <p>(770) 739-9637</p>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div id="map"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Container ends -->
+
+    <footer class="bg-dark text-white mt-5">
+    <div class="container p-5">
+        <div class="row">
+        <div class="col-sm-6">
+            <h4>Address</h4>
+            <hr class="bg-white">
+            <p>1291 Old Powder Springs Rd sw <br>
+            Mableton, GA 30126 <br>
+            United States</p>
+            <h4>Phone</h4>
+            <hr class="bg-white">
+            <p>(770) 739-9637</p>
+        </div>
+        <div class="col-sm-6">
+            <h4>Hours</h4>
+            <hr class="bg-white">
+            <p>Mon:	10:00 AM – 5:30 PM <br>
+            Tue:	10:00 AM – 5:30 PM <br>
+            Wed:	10:00 AM – 5:30 PM <br>
+            Thu:	10:00 AM – 5:30 PM <br>
+            Fri:	10:00 AM – 5:30 PM <br>
+            Sat:	10:00 AM – 1:00 PM <br>
+            Sun:	Closed
+            </p>
+        </div>
+        </div>
+    </div>
+    </footer>
+
+    <script src="../js/app.js"></script>
+    <script>
+       function initMap() {
+            // The location of Uluru
+            const address = {lat: 33.815050, lng: -84.591500};
+            // The map, centered at Uluru
+            const map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 15, center: address});
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({position: address, map: map});
+        }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoG-TJK8mWrOBwKizZuZuUfXMeCFE7jGY&callback=initMap">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>
