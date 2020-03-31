@@ -26,6 +26,10 @@ body {
     box-shadow: 0 10px 6px -6px #777;
 }
 
+#floating-form input {
+    margin: 10px 0 10px 0;
+}
+
 button {
     outline: none;
 }
@@ -199,6 +203,12 @@ footer {
     .floor-plans-img {
         width: 300px;
     }
+    /* //////////////////////////////////////////////////////////// */
+
+    /* SCHEDULE TOUR///////////////////////////////////////////////// */
+    /* #floating-form {
+        padding: 5px;
+    } */
     /* //////////////////////////////////////////////////////////// */
 
  }
