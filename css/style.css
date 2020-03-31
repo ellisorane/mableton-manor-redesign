@@ -149,6 +149,7 @@ footer {
         border: 1px solid rgb(175, 175, 175);
         border-radius: 15px;
         padding: 40px;
+        margin-bottom: 100px;
     }
 
     input, textarea {
@@ -197,18 +198,16 @@ footer {
         min-height: 300px;
         padding: 20px;
     }
+
+    .pax {
+        background-attachment: scroll;
+    }
     /* //////////////////////////////////////////////////////////// */
 
     /* FLOOR PLANS///////////////////////////////////////////////// */
     .floor-plans-img {
         width: 300px;
     }
-    /* //////////////////////////////////////////////////////////// */
-
-    /* SCHEDULE TOUR///////////////////////////////////////////////// */
-    /* #floating-form {
-        padding: 5px;
-    } */
     /* //////////////////////////////////////////////////////////// */
 
  }
