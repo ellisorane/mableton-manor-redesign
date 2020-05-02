@@ -1,41 +1,46 @@
-body {
+html, body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 2.5em;
     color: #333;
-    background-color: #fff;
     margin: 0;
     height: 100%;
-
 }
 
-#floating-div {
-    position: absolute;
-    display: none;
-    height: auto;
+.backdrop {
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    height: 100%;
     width: 100%;
-    border: none;
-    border-radius: 15px;
-    z-index: 1;
+    z-index: 9;
+    position: fixed;
+}
+
+.navbar {
+    z-index: 5;
+}
+
+#floating-div{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 10;
+    /* background-color: rgba(0, 0, 0, .5); */
 }
 
 #floating-form {
-    margin: auto;
-    -webkit-box-shadow: 0 10px 6px -6px #777;
-    -moz-box-shadow: 0 10px 6px -6px #777;
-    box-shadow: 0 10px 6px -6px #777;
+    margin: 100px auto;
+    width: fit-content;
+    min-height: auto;
+    box-shadow: 0 10px 6px -6px;
+    background-color: whitesmoke;
 }
 
 #floating-form input {
     margin: 10px 0 10px 0;
-}
-
-button {
-    outline: none;
-}
-
-button:focus {
-    outline: none;
 }
 
 footer {
@@ -172,7 +177,6 @@ footer {
 /* RESPONSIVE///////////////////////////////////////////////////// */
 /* /////////////////////////////////////////////////////////////// */
 
-/* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
 
     /* INDEX///////////////////////////////////////////////////// */
@@ -211,13 +215,3 @@ footer {
     /* //////////////////////////////////////////////////////////// */
 
  }
-
-
-/* Small devices (landscape phones, less than 768px) */
-/* @media (max-width: 767.98px) { ... } */
-
-/* Medium devices (tablets, less than 992px) */
-/* @media (max-width: 991.98px) { ... } */
-
-/* Large devices (desktops, less than 1200px) */
-/* @media (max-width: 1199.98px) { ... } */
